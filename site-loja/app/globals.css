@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+/* Suas variáveis de cor */
+:root {
+  --rosa-borda: #fadadd;
+  --dourado: #d4af37;
+}
+
+/* O resto do CSS para garantir que as cores funcionem */
+body {
+  background-color: #fef7f7;
+  color: #2b2b2b;
+}
+
+header {
+  border-bottom: 2px solid var(--rosa-borda);
+}
